@@ -251,7 +251,7 @@ function M.setup(config)
     TSVariableBuiltin = { fg = c.red }, -- Variable names that are defined by the languages, like `this` or `self`.
 
     TSTag               = { fg = c.red };    -- Tags like html tag names.
-    TSTagDelimiter      = { fg = c.red };    -- Tag delimiter like `<` `>` `/`
+    TSTagDelimiter      = { fg = c.magenta2 };    -- Tag delimiter like `<` `>` `/`
     -- TSText              = { };    -- For strings considered text in a markup language.
     TSTextReference = { fg = c.teal },
     -- TSEmphasis          = { };    -- For text to be represented with emphasis.
