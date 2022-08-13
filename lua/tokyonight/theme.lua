@@ -131,7 +131,7 @@ function M.setup(config)
     qfLineNr = { fg = c.dark5 },
     qfFileName = { fg = c.blue },
 
-    htmlH1 = { fg = c.magenta, style = "bold" },
+    htmlH1 = { fg = c.red, style = "bold" },
     htmlH2 = { fg = c.blue, style = "bold" },
 
     -- mkdHeading = { fg = c.orange, style = "bold" },
